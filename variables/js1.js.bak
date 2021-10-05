@@ -1,0 +1,8 @@
+var a=5;
+var status=true;
+var ch='@';
+var b=2.3;
+document.writeln(a);
+document.writeln(status);
+document.write(b);
+document.write(ch);

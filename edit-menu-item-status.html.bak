@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <link rel="stylesheet" href="menu.css"></link>
+  <title>edit menu status</title>
+ </head>
+ <body>
+ <div id="box">
+ <div id="index">
+ <label id="truyum" >truYum</label>
+ <img id="img" src="newspoon.png" ></img>
+ <a class = "color" href="menu-item-list-admin.html"><ins id="ins">Menu</ins></a>
+ </div>
+ <div id="divmenu3">
+ <label>Edit Menu Items Status</label></div>
+ <br></br>
+ <strong id="img3">
+ menu items details saved successfully
+ 
+ 
+ </strong>
+ 
+ <div id="down3">
+ <label id="copyright">copyright © 2019</label>
+ 
+ </div>
+  
+  
+  
+ </body>
+</html>

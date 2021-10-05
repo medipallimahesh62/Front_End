@@ -1,0 +1,50 @@
+
+<html lang="en">
+  <head>
+  <title>CODE CHALLENGE1</title>
+  </head>
+  <body>
+  <label>Student Name :</label>
+       <input placeholder="Enter Name"></input>
+       <br>
+	   </br>
+  <label>Student Location :</label>
+       <textarea></textarea>
+	   <input placeholder="Enter Location"></input>
+       <br>
+	   </br>
+  <label>Email :</label>
+       <input placeholder="@gmail.com"></input>
+       <br>
+	   </br>
+  <label>Phone Number :</label>
+       <input type="number"placeholder="91XXXXXXXXXX"></input>
+       <br>
+	   </br>
+  <label>Location of Visit :</label>
+       <input type="radio" name="Location" >HYDERABAD</input>
+       <input type="radio" name="Location">BANGALORE</input>
+       <input type="radio" name="Location">CHENNAI</input>
+       <br>
+	   </br>
+  <label>Date of Visit  :</label>
+       <input type="date"></input>
+       <br>
+	   </br>
+  <label>Mode Of Travel :</label>
+     <select>
+     <option></option>
+     <option>CAR</option>
+     <option>PLANE</option>
+     <option>BUS</option>
+     </select>
+	 <br>
+	 </br>
+     <input type="button" value="Submit"></input>
+     <br>
+	 </br>
+     <input type="button" value="Clear"></input>
+     <br>
+	 </br>
+ </body>
+</html>

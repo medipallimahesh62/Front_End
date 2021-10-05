@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ <title>RemoveBook</title>
+ </head>
+ <form>
+ <body>
+ <h1><ins>Remove Books Details</ins></h1>
+ <div style ="height:100%;width:50%;float:right">
+ <table>
+ <tr>
+	<td><label>REMOVE TITLE :</label></td>
+	<td><input placeholder="Enter Book Title.." required></input></td>
+ </tr>
+
+<tr>
+	<td></td>
+	<td><input type="submit" value="RemoveBook"></input></td>
+</tr>
+
+ </table>
+ </div>
+  
+ </body>
+ </form>
+</html>

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <title>Login</title>
+
+  <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax//libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+ </head>
+ <body>
+ <form>
+<link rel ="stylesheet" href="skillrary.css"></link>
+  <div id="username1">
+  <div id="yes"><label><h1>LOGIN</h1></label></div>
+	  <br>
+<div class="abc"> 
+<i class="fa fa-user fa-2x"></i>
+<input id="username" type placeholder ="@username" title="enter your username"  style="text-align:center" required></input>
+<br></br>
+<i class="fa fa-key fa-2x "></i>
+<input  id="password" type="passkey" type placeholder ="password" title="enter your password"  style="text-align:center" required>
+ </div>
+ <br>
+ <input id="submit" type="Submit" value="Submit"></input>
+ </div>
+ </form>
+ </body>
+</html>

@@ -1,0 +1,48 @@
+
+<html lang="en">
+ <head>
+ <title>CODE CHALLENGE1</title>
+ <link rel="stylesheet" href="ass5.css"></link>
+ </head>
+ <body bgcolor="olive">
+ <table>
+ <form> 
+  <tr>
+      <td><label>Student Name :</label></td>
+	  <td><input pattern="[A-Z]{5,20}" title="enter the aplhabets only" placeholder="ENTER NAME"></input></td>
+  </tr>    
+  <tr><td><label>Email :</label></td>
+      <td><input pattern ="[a-z]{20}[0-9]{6}[@]{1}[a-z]{6}[.]{1}[a-z]{3}" title="mail should be alphabets and one special character"placeholder="ENTER EMAIL"></input></td>
+  </tr>
+  <tr>
+       <td><label>Phone Number :</label></td>
+       <td><input pattern ="[6-9]{1}[0-9]{9}"title="Enter 10 Digits only"placeholder="ENTER MOBILENUMBER"></input></td>
+  </tr>
+       
+  <tr><td><label>Location of Visit :</label></td>
+      <td><input type="radio" name="Location">HYDERABAD</input></td>
+      <td><input type="radio" name="Location">BANGALORE</input></td>
+      <td><input type="radio" name="Location">CHENNAI</input></td>
+  </tr>
+       
+  <tr><td><label>Date of Visit  :</label></td>
+      <td><input type="date" placeholder="ENTER DATE"></input></td>
+  </tr>
+       
+  <tr><td><label>Mode Of Travel :</label></td>
+      <td><select>
+      <option></option>
+      <option>CAR</option>
+      <option>PLANE</option>
+      <option>BUS</option>
+      </select></td>
+  </tr>
+	 
+      <td><input type="submit" value="Submit"title="Click Here"></input></td>
+     
+      <td><input type="submit" value="Clear"title="Click Here"></input></td>
+     
+	 </form>
+	 </table>
+ </body>
+</html>

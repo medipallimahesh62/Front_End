@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>CODE CHALLENGE4</title>
+ </head>
+ <body bgcolor="purple">
+  <label>Year :</label>
+  <input list="abc" placeholder="select year"></input>
+  <datalist id="abc">
+  <option></option>
+  <option>2016</option>
+  <option>2017</option>
+  <option>2018</option>
+  <option>2019</option>
+  <option>2020</option>
+  </datalist>
+  <br></br>
+  <label>Country Name :</label>
+  <input list="pqr" placeholder="select country"></input>
+  <datalist id="pqr">
+  <option></option>
+  <option>INDIA</option>
+  <option>AUS</option>
+  <option>UK</option>
+  <option>US</option>
+  <option>CANADA</option>
+  </datalist>
+  <br></br>
+<label>MjorCities :</label>
+  <input list="xyz" placeholder="select city"></input>
+  <datalist id="xyz">
+  <option></option>
+  <option>KAMMAM</option>
+  <option>RANGAREDDY</option>
+  <option>HYDERABAD</option>
+  <option>MEDCHAL</option>
+  <option>WARANGAL</option>
+  </datalist>
+  <br></br>
+  <label>PopulationInMajorCities :</label>
+  <input type="number" placeholder="Enter population">
+  </input>
+  <br></br>
+  <input type="button" value="submit"></input>
+ </body>
+</html>

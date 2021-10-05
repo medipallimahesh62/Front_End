@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <title>ADD CARD</title>
+  <link rel="stylesheet" href="ass4.css"></link>
+ </head>
+ <body>
+  <table>
+  <h1><ins>PLEASE ENTER THE DETAILS OF CARD!!</ins></h1>
+ <form>
+ <tr>
+ <td>
+ <label>NAME ON CARD :
+ </label>
+ </td>
+ <td><input pattern="[A-Z]{5,20}" title="Enter the aplhabets Uppercase only.." required placeholder=" ENTER CARD HOLDER NAME"></input></td></tr>
+ <tr><td><label>CARD NUMBER :</label></td>
+ <td><input pattern="[0-9]{4}[ ]{1}[0-9]{4}[ ]{1}[0-9]{4}[ ]{1}[0-9]{4}"title="Enter 16 digits only with spaces of after4digits.."required placeholder="ENTER CARD NO"></input></td></tr>
+  <tr><td><label>CVV :</label></td>
+  <td><input pattern="[0-9]{3}" title="Enter 3 Digits only" required placeholder="ENTER CVV"></input></td></tr>
+  <tr><td><label>EXP-DATE :</label></td>
+ <td><input pattern="[0-9]{2}[/]{1}[0-9]{4}"title="type this(DD/YYYY) fromat only" required placeholder="ENTER DATE"></input></td></tr>
+ <td><input type="submit" value="Verify Card Details" title="Click Here"></input></td></tr>
+</form>
+</table>
+ </body>
+</html>

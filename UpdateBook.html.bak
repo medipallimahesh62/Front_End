@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ <title>UpdateBook</title>
+ </head>
+ <form>
+ <body>
+  <h1><ins>Update Book Details</ins></h1>
+  <div style ="height:100%;width:50%;float:right">
+<table>
+<tr>
+	<td><label>BOOK TITLE :</label></td>
+	<td><input placeholder="Enter Book Title" required></input></td>
+</tr>
+<tr>
+	<td><label>BOOK EDITION :</label></td>
+	<td><input placeholder="Enter New Edition" required></input></td>
+</tr>
+<tr>
+	<td></td>
+	<td><input type="submit" value="UpdateBookDetails"></input></td>
+</tr>
+</table>
+  <div>
+ </body>
+ </form>
+</html>

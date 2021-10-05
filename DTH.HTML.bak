@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ <title>Document</title>
+ </head>
+ <body>
+ <ins style="color:red">RechargePayIndia.com</ins>
+  <table>
+  <form>
+  <tr>
+	<td><label>MOBILE NO :</label></td>
+	<td><input pattern ="[6-9]{1}[0-9]{9}"title="Enter 10 Digits only" required ></input></td>
+  </tr>
+  <tr>
+	<td><label>RECHARGE AMOUNT :</label></td>
+	<td><select>
+      <option></option>
+      <option>235</option>
+      <option>300</option>
+      <option>400</option></td>
+  </tr>
+  <tr>
+	<td><label>SERVICE PROVIDER :</label></td>
+	<td><select>
+      <option></option>
+      <option>Airtel</option>
+      <option>TataSky</option>
+      <option>SunDirect</option></td>
+  </tr>
+  <tr>
+	<td></td>
+	<td><input type="submit" value="Recharge Now"></input></td>
+  </tr>
+  </form>
+  </table>
+ </body>
+</html>

@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <link rel="stylesheet" href="menu.css"></link>
+  <title>delete</title>
+ </head>
+ <body>
+ <div id="re1">
+ <div id="re2">
+ <label id="tr1" >truYum</label>
+ <img id="img" src="newspoon.png" ></img>
+ <a class = "m1" href="cart.html"><ins id="ins">Cart</ins></a>
+<a class = "m1" href="menu-item-list-admin.html"> <ins id="cart">Menu</ins></a>
+ </div>
+ <div id="cart5"><label>Cart</label></div>
+ <br></br>
+ <strong id="img4">
+   
+  </strong>
+  <div id="div4">
+  <table>
+  <tr>
+	<td><strong id="name4">Name</strong></td>
+	<td><strong id="class4">Free Delivery</strong></td>
+	<td><strong id="clas4">Price</strong></td>
+
+  </tr>
+  <tr>
+	<td><label class="sand1">Sandwich</label></td>
+	<td><label class="sand21">Yes</label></td>
+	<td><label id="sa3">Rs.99.00</label></td>
+	<td><a class = "color"><ins class="sand4">Delete</ins></a></td>
+	
+  </tr>
+  <tr>
+	<td><label class="sand1">Burger</label></td>
+	<td><label class="sand21">No</label></td>
+	<td><label class="sand3">Rs.129.00</label></td>
+	<td><a class = "color" ><ins class="sand4" >Delete</ins></a></td>
+  </tr>
+  <tr>
+	<td><label class="sand1">Pizza</label></td>
+	<td><label class="sand21">No</label></td>
+	<td><label class="sand3">Rs.149.00</label></td>
+	<td><a class = "color" href="cart-notification.html"><ins class="sand4">Delete</ins></a></td>
+  </tr>
+  <tr>
+    <td></td>
+	<td><strong id="class5" >Total</strong></td>
+	<td><strong id="clas5">Rs.377.00</strong></td>
+  </tr>
+  </table>
+  </div>
+ 
+ 
+ </strong>
+ 
+ <div id="down3">
+ <label id="copyright">copyright © 2019</label>
+ 
+ </div>
+  
+ </body>
+</html>

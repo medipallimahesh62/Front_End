@@ -1,0 +1,50 @@
+
+<!doctype html>
+<html lang="en">
+ <head>
+ <title>AddBookDetails</title>
+ <link rel ="stylesheet" href="library.css"></link>
+ <link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax//libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+ </head>
+ <form>
+ <body>
+  <h1>Add Book Detalis</h1>
+   <div id="outer">
+  <div class="inner">
+<label><Strong>BOOK TITLE :</Strong></label>
+    <input placeholder="Enter Book Title " required></input>
+	</div>
+	<div class="inner">
+<label><Strong> BOOK AUTHOR :</Strong></label>  
+    <input placeholder="Enter Book Author.. " required></input>
+	</div>
+	<div class="inner">
+<label><Strong> EDITION :</Strong></label>
+   <input placeholder="Enter Edition.. " required></input>
+   </div>
+   <div class="inner">
+<label><Strong> BOOK PRICE:</Strong></label>
+   <input placeholder="Enter Price.. " required></input>
+   </div>
+   <div class="inner">
+			<label><Strong> BOOK TYPE:</Strong></label>
+				<input list="abc" placeholder="SELECT"></input>
+
+							 <datalist id="abc">
+							  <option></option>
+							  <option>MATHS</option>
+							  <option>PHYSICS</option>
+							  <option>CHEMISTRY</option>
+							  <option>OPERATING SYSTEMS</option>
+							  <option>DIGITAL LOGIC DESIGN</option>
+							  <option>ECONOMICS</option>
+							  </datalist> 
+
+</div>
+      <div class="inner">
+      <input type="submit" value="AddBookDetails"></input>
+       </div>
+</div>
+ </body>
+ </form>
+</html>

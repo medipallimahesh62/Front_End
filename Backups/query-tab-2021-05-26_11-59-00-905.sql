@@ -1,0 +1,1 @@
+SELECT SUM(rate*qty) FROM Orderdetails WHERE DOP='2021-09-01' & DOP='2020-03-01';

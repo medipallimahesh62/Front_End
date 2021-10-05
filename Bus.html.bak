@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ <title>Document</title>
+ </head>
+ <body>
+ <ins style="color:red">RedBusIndia.com</ins>
+  <table>
+  <form>
+  <tr>
+	<td><label>FROM :</label></td>
+	<td><select>
+      <option></option>
+      <option>HYD</option>
+      <option>CHENNAI</option>
+      <option>DELHI</option></select></td>
+  </tr>
+  <tr>
+	<td>TO :</td>
+	<td><select>
+      <option></option>
+      <option>HYD</option>
+      <option>CHENNAI</option>
+      <option>DELHI</option></select></td>
+  </tr>
+  <tr>
+	<td>DOJ :</td>
+	<td><input pattern="[0-9]{2}[/]{1}[0-9]{4}[/][0-9]{2}"title="type this(DD/YYYY/MM) fromat only" required ></input></td>
+  </tr>
+  <tr>
+	<td></td>
+	<td><input type="submit" value="SearchBus"</td>
+  </tr>
+  </form>
+  </table>
+ </body>
+</html>

@@ -1,0 +1,10 @@
+#eye{
+ border:solid;
+ border-left:0px;
+ outline:0px;border-radius:5px
+}
+#pwd1{border:solid;
+border-right:0px;
+outline:0px}
+div{display:flex}
+input{border-radius:5px}

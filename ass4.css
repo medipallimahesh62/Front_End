@@ -1,0 +1,9 @@
+label{color:black}
+
+input {border-radius:20px;
+	   outline:0px;
+	   text-align:center;
+	   font-weight:bold;
+	   font-size:10px;
+	   height:20px;width:200px}
+h1{color:red}

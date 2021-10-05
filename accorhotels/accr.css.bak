@@ -1,0 +1,6 @@
+div{padding-top:100px;padding-left:550px;color:black;display:}
+.user{height:40px;width:500px;padding-left:20px}
+.pass{height:40px;width:500px;padding-left:20px}
+#bt{border-radius:10px;height:40px;width:500px;background-color:black;outline:0px;color:white;margin-right:100px}
+.lb{font-weight:bold}
+

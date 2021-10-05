@@ -1,0 +1,20 @@
+fieldset{padding:20px;margin:20px}
+input{ background-repeat:no-repeat;padding-left:20px;
+		   padding-right:20px;text-align:center;
+		   background-position:right;
+		   background-size:100%;
+		   margin:10px;
+		   outline:0px;
+		   background-image:url('images.png');height:10%;
+	  width:10%;}
+body{background-image:url('istockphoto-1138395421-612x612.jpg');
+		   background-repeat:no-repeat;
+		   outline:0px;
+		   background-size:100%}
+#tie{ height:100%;
+	  width:50%;
+	  float:right}
+#tie1{ height:100%;
+	   width:50%;
+	   float:left}
+h1{text-align:center}

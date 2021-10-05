@@ -1,0 +1,30 @@
+<html lang="en">
+ <head>
+ <title>CODE CHALLENGE2</title>
+ </head>
+ <body bgcolor="brown">
+  <label>Customer Name:</label>
+  <input placeholder="John"></input><br></br>
+  <label>Customer Email:</label>
+  <input placeholder="John@gmail.com"></input><br></br>
+  <label>Mobile Number:</label>
+  <input type="number" placeholder="9843012345"></input><br></br>
+<label>Type of Broadband:</label>
+<select>
+<option></option>
+<option>prepaid</option>
+<option>postpaid</option>
+</select>
+<br></br>
+<label>Location of Visit :</label>
+       <input type="radio" name="Location">Local</input>
+       <input type="radio" name="Location">STD</input>
+       <input type="radio" name="Location">FullTalkTime</input>
+       <br></br>
+	   <label>Connection Duration:</label>
+  <input type="name" placeholder="5"></input>
+   <br></br>
+   <input type="button" value="Caluclate Bill Amount"></input>
+   <input type="button" value="Reset"></input>
+ </body>
+</html>

@@ -1,0 +1,80 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ <link rel="stylesheet" href="menu.css"></link>
+  
+  <title>edit</title>
+ </head>
+ <body>
+ <div id="re1">
+ <div id="re2">
+ <label id="tr1" >truYum</label>
+ <img id="img" src="newspoon.png" ></img>
+ <a class = "m1" href="menu-item-list-admin.html"><ins id="ins">Menu</ins></a>
+ </div>
+ <div id="item"><label>Menu Items</label></div>
+ <div id="table1"><table>
+ 
+ <tr>
+	<td><strong class="name">Name</strong></td>
+	<td><strong class="items">price</strong></td>
+	<td><strong  class="items">Active</strong></td>
+	<td><strong class="items" >Date of Launch</strong></td>
+	<td><strong id="items1" >Category</strong></td>
+	<td><strong class="items">Free Delivery</strong></td>
+	<td><strong class="items">Action</strong></td>
+
+ </tr>
+ <tr>
+	<td><label class="name">sandwich</label></td>
+	<td><label class="item">Rs.99.00</label></td>
+	<td><label class="ite">Yes</label></td>
+	<td><label class="it">15/03/2017</label></td>
+	<td><label class="i">Main Course</label></td>
+	<td><label class="is">Yes</label></td>
+	<td><a class = "m1" href="edit-menu-item.html"><ins class="do">Edit</ins></a></td>
+ </tr>
+ <tr>
+	<td><label class="name">Burger</label></td>
+	<td><label class="item">RS.129.00</label></td>
+	<td><label class="ite">Yes</label></td>
+	<td><label class="it">23/12/2017</label></td>
+	<td><label class="i">Main course</label></td>
+	<td><label class="is">No</label></td>
+	<td><a class = "m1" href="edit-menu-item.html"><ins class="do">Edit</ins></a></td>
+ </tr>
+ <tr>
+	<td><label class="name">Pizza</label></td>
+	<td><label class="item">Rs.149.00</label></td>
+	<td><label class="ite">Yes</label></td>
+	<td><label class="it">21/08/2017</label></td>
+	<td><label class="i">Main course</label></td>
+	<td><label class="is">No</label></td>
+	<td><a class = "m1" href="edit-menu-item.html"><ins class="do">Edit</ins></a></td>
+ </tr>
+  <tr>
+	<td><label  class="name">French fries</label></td>
+	<td><label class="item">Rs.57.00</label></td>
+	<td><label class="ite">No</label></td>
+	<td><label class="it">02/07/2017</label></td>
+	<td><label class="ii">Starters</label></td>
+	<td><label class="is">Yes</label></td>
+	<td><a class = "color" href="edit-menu-item.html"><ins class="do" >Edit</ins></a></td>
+ </tr>
+  <tr>
+	<td><label class="name">Chocolate Brownie</label></td>
+	<td><label class="item">Rs.32.00</label></td>
+	<td><label class="ite">Yes</label></td>
+	<td><label class="it">02/11/2022</label></td>
+	<td><label class="ii">Dessert</label></td>
+	<td><label class="is">Yes</label></td>
+	<td><a class = "color" href="edit-menu-item.html"><ins class="do">Edit</ins></a></td>
+ </tr>
+ </table></div>
+ <div id="down">
+ <label id="copyright">copyright © 2019</label>
+ </div>
+ </div>
+  
+ </body>
+</html>

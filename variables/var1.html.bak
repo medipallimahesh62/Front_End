@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ <title>Document</title>
+ <script src="operations.js"></script>
+ </head>
+ <body>
+ <label id="lb">Phonenumber</label>
+ <input id="pnum" onkeyup="phonenumber()"></input>
+ <i class="fa fa-eye" id="itag"></i>
+ <br></br>
+ <label>Number1</label>
+ <input id="n1"></input>
+ <br></br>
+ <label>Number2</label>
+ <input id="n2"></input>
+ <br></br>
+ <input type="radio" name="run"  id="add">Add</input>
+ <input type="radio" name="run" id="sub">sub</input>
+ <input type="radio" name="run" id="mul">mul</input>
+ <input type="radio" name="run" id="div">div</input><br></br>
+ <input type="button" value="caluclate"onclick="radiobutton()"></input>
+ <strong id="err" style="padding-left:20px; color:red"></strong>
+ <br></br>
+ <strong>Result:</strong>
+ <mark id="tie"></mark>
+ <br></br>
+
+ </body>
+</html>

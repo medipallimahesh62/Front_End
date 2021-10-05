@@ -1,0 +1,14 @@
+h1{text-align:center;font-weight:bold;color:white}
+
+#outer{height:200px;width:400px;margin-top:150px;margin-left:900px;font-size:20px;color:white;margin-right:200px;margin-bottom:400px}
+
+body{background-image:url('fa4a645a0ac371ebb7fee5e56c2e391e.jpg');background-repeat:no-repeat;background-size:100%}
+
+input{font-weight:bold;border-radius:10px;margin-top:30px;margin-left:30px;outline:0px}
+
+.inner{padding-top:30px;padding-left:5px;font-weight:bold;font-size:20px;color:white}
+
+label{color:black}
+
+i{color:black;font-weight:bold}
+Strong{color:black}

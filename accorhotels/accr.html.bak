@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ <title>Document</title>
+ <link rel="stylesheet" href="accr.css"></link>
+<link rel ="stylesheet" href="https://cdnjs.cloudflare.com/ajax//libs/font-awesome/4.7.0/css/font-awesome.min.css"></link>
+<script src="accr.js"></script>
+ </head>
+ <body>
+ <div>
+       <label class="lb" id="labelid1" >Your email</label><br></br>
+       <label class="lb" id="labelid2"  >(example@example.com)</label><br></br>
+       <input class="user"onblur="username()" id="email"></input>
+	   <i id="number"></i><br></br>
+	   <strong id="str"></strong>
+       <br></br>
+       <label class="lb" id="labelid3">Password</label><br></br>
+	   <input class="pass" id="pwd"onblur="password()"></input>
+	   <i id="eye" onclick="showHidePassword()"></i>
+	   <i id="number1"></i><br></br>
+	   <strong id="str1"></strong><br></br>
+       <input type="checkbox">Remember me</input><br></br>
+	   <input  id="bt"type="button" value="LOGIN" ></input>
+</div>
+  
+ </body>
+</html>

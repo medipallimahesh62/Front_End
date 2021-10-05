@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  
+  <title>RESGISTRATION</title>
+  <link rel="stylesheet" href="register.css"></link>
+ </head>
+ <body>
+ <div id="tie"><fieldset class="mahi" >
+    <h1><ins>Sign UP</ins></h1>
+ <h2><fieldset class="mahi">
+ <legend>Name</legend>
+ <input ></input>
+ </fieldset>
+ <fieldset class=""mahi >
+ <legend>Mobile Number</legend>
+ <input ></input>
+ </fieldset>
+ <fieldset class="mahi">
+ <legend>Email Id</legend>
+ <input ></input>
+ </fieldset>
+ <fieldset class="mahi" >
+ <legend>Password</legend>
+ <input ></input>
+ </fieldset>
+ <h2><input type="button" value="SignUp"></input>
+ </fieldset>
+ </div>
+ <div id="tie1"><fieldset >
+ <h1><ins>Sign In</ins></h1>
+ <big><fieldset>
+ <legend>UserName</legend>
+ <input ></input>
+ </fieldset>
+ <fieldset >
+ <legend>Password</legend>
+ <input ></input>
+ </fieldset>
+ <input type="button" value="SignIn"></input>
+ </big></strong></fieldset>
+ </div>
+  
+ </body>
+</html>

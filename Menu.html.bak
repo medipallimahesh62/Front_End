@@ -1,0 +1,18 @@
+<!doctype html>
+<html lang="en">
+ <head>
+ <title>Document</title>
+ </head>
+ <body>
+ <ins>WELCOME TO RECHARGEPAYINDIA.COM</ins>
+ <pre>
+  <a href="MobileRecharge.html" target="new" style ="color:red">MobileRecharge</a>
+
+  <a href="DTH.HTML" target="new"style ="color:red">DTH</a>
+
+  <a href="FLIGHT.HTML" target="new"style ="color:red">FLIGHT</a>
+
+  <a href="Bus.html" target="new"style ="color:red">BUS</a>
+  </pre>
+ </body>
+</html>
